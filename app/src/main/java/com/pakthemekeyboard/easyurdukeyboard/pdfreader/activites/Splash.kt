@@ -18,7 +18,7 @@ import com.pakthemekeyboard.easyurdukeyboard.pdfreader.utils.exfuns.loadImageWit
 import com.pakthemekeyboard.easyurdukeyboard.pdfreader.utils.exfuns.startNewActivity
 import com.pakthemekeyboard.easyurdukeyboard.pdfreader.utils.subscribe.isAlreadyPurchased
 import kotlinx.android.synthetic.main.activity_splash.*
-
+// some comment here
 class Splash : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
