@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/choose_file"
+        android:title=""
+        android:icon="@drawable/ic_gallery_icon_unselected"/>
+    <item
+        android:id="@+id/nothing"
+        android:title=""/>
+
+    <item
+        android:id="@+id/open_pdf"
+        android:title=""
+        android:icon="@drawable/ic_pdf_unselected"/>
+
+
+</menu>

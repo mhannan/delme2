@@ -1,0 +1,71 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="fontFamily">@font/geomanist</item>
+    </style>
+
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView">
+        <!-- Text Size -->
+        <!--        <item name="android:textSize">@dimen/textSizePrimary</item>-->
+        <!-- Query Text Color -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!-- Hint Color -->
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <!-- Icon Color -->
+        <item name="android:tint">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="drawer_text_style" parent="AppTheme">
+        <item name="android:fontFamily">@font/geomanist</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/color_detail_text</item>/>
+    </style>
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowTitleStyle">@style/MyTitleTextStyle</item>
+        <item name="android:windowBackground">@drawable/bg_round_dialog</item>
+    </style>
+
+    <style name="MyTitleTextStyle">
+<!--        <item name="android:textColor">#FFEB3B</item>-->
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.App.CustomDialog.Rounded" parent="AppTheme">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="PopupMenu" >
+        <item name="android:background">@drawable/bg_popup_menu</item>
+
+    </style>
+
+
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/CustomDialogAnimation</item>
+    </style>
+
+    <style name="CustomDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/translate_left_side</item>
+        <item name="android:windowExitAnimation">@anim/translate_right_side</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_marginBottom="60dp"
+    android:background="@drawable/ic_more_options_drawer">
+
+    <ImageView
+        android:id="@+id/pdflouder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+
+        android:scaleType="fitStart"
+        android:src="@drawable/ic_list_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/loudericon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/ic_pdf_loud_reader"
+        app:layout_constraintBottom_toBottomOf="@+id/loudertxt"
+        app:layout_constraintStart_toStartOf="@+id/pdflouder"
+        app:layout_constraintTop_toTopOf="@+id/loudertxt" />
+
+    <TextView
+        android:id="@+id/loudertxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="PDF Loud Reader"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/pdflouder"
+        app:layout_constraintStart_toEndOf="@+id/loudericon"
+        app:layout_constraintTop_toTopOf="@+id/pdflouder" />
+
+    <ImageView
+        android:id="@+id/lockpdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/ic_list_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pdflouder" />
+
+    <ImageView
+        android:id="@+id/lockicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/ic_lock_pdf"
+        app:layout_constraintBottom_toBottomOf="@+id/locktxt"
+        app:layout_constraintStart_toStartOf="@+id/lockpdf"
+        app:layout_constraintTop_toTopOf="@+id/locktxt" />
+
+    <TextView
+        android:id="@+id/locktxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Lock PDF"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/lockpdf"
+        app:layout_constraintStart_toEndOf="@+id/lockicon"
+        app:layout_constraintTop_toTopOf="@+id/lockpdf" />
+
+    <ImageView
+        android:id="@+id/unlock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:layout_marginTop="10dp"
+
+        android:src="@drawable/ic_list_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lockpdf" />
+
+
+    <ImageView
+        android:id="@+id/unlockicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="20dp"
+        android:src="@drawable/ic_unlock_pdf"
+        app:layout_constraintBottom_toBottomOf="@+id/unlocktxt"
+        app:layout_constraintStart_toStartOf="@id/unlock"
+        app:layout_constraintTop_toTopOf="@+id/unlocktxt" />
+
+    <TextView
+        android:id="@+id/unlocktxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="UnLock PDF"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/unlock"
+        app:layout_constraintStart_toEndOf="@+id/unlockicon"
+        app:layout_constraintTop_toTopOf="@+id/unlock" />
+
+    <ImageView
+        android:id="@+id/favourite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/ic_list_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/unlock" />
+
+
+    <ImageView
+        android:id="@+id/favouriteicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/ic_favourites"
+        app:layout_constraintBottom_toBottomOf="@+id/favouritetxt"
+        app:layout_constraintStart_toStartOf="@+id/favourite"
+        app:layout_constraintTop_toTopOf="@+id/favouritetxt" />
+
+    <TextView
+        android:id="@+id/favouritetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Favourites"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/favourite"
+        app:layout_constraintStart_toEndOf="@+id/favouriteicon"
+        app:layout_constraintTop_toTopOf="@+id/favourite" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,3 @@
+include ':scanlibrary'
+rootProject.name='PDF Reader'
+include ':app'

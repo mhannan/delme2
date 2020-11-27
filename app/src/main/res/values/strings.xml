@@ -1,0 +1,30 @@
+ <resources>
+    <string name="app_name">PDF Reader</string>
+    <string name="title_activity_index">IndexActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+
+    <string name="pdf_savefile_name">PDF_</string>
+    <string name="pdf_failed_to_save_msg">failed to save</string>
+
+    <!--    // Ads Test ids-->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="bannerId">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="InterstisialId">ca-app-pub-3940256099942544/1033173712</string>
+
+
+    <!--// live ids-->
+    <!-- <string name="admob_app_id">ca-app-pub-6532393481516575~3461582414</string>
+    <string name="bannerId">ca-app-pub-6532393481516575/7645010632</string>
+    <string name="InterstisialId">ca-app-pub-6532393481516575/4583092390</string>-->
+</resources>
